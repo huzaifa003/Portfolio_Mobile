@@ -4,12 +4,12 @@
 
 @media only screen and (max-width: 376px) {
   /* Your CSS styles for mobile devices with a width of 376 pixels or less */
-  .header {
+  .nav {
     display: flex;
     justify-content: space-between;
   }
 
-  .header-left {
+  .nav-left {
     font-family: Poppins;
     font-size: 18px;
     font-weight: 700;
@@ -19,7 +19,7 @@
     color: var(--primary-color);
   }
 
-  .header-right {
+  .nav-right {
     display: flex;
     justify-content: space-between;
     align-items: center;
