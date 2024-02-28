@@ -1,5 +1,33 @@
-.h1 {
-  color: red;
-  font-size: 20px;
-  font-weight: bold;
+:root {
+  --primary-color: rgba(96, 112, 255, 1);
+}
+
+@media only screen and (max-width: 376px) {
+  /* Your CSS styles for mobile devices with a width of 376 pixels or less */
+  .header{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+  .header-left{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--primary-color);
+
+
+  }
+
+  .header-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+
+  
 }
