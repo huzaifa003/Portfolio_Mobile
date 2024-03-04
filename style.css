@@ -14,7 +14,6 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  max-width: 375px;
 }
 
 .nav-left {
@@ -86,12 +85,5 @@
 }
 
 .header-social-media {
-  margin-left: 15px;
-}
-
-.social-media {
-  padding-top: 10px;
-  display: flex;
-  gap: 20px;
   margin-left: 15px;
 }
