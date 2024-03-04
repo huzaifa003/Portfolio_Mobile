@@ -87,3 +87,10 @@
 .header-social-media {
   margin-left: 15px;
 }
+
+.social {
+  padding-top: 10px;
+  display: flex;
+  gap: 20px;
+  margin-left: 15px;
+}
