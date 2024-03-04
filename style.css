@@ -54,7 +54,7 @@
   color: rgba(23, 43, 77, 1);
   top: 92px;
   width: 327px;
-  height: 250px;
+  height: 235px;
   position: relative;
   margin-left: 15px;
 }
@@ -69,6 +69,7 @@
   color: rgba(23, 43, 77, 1);
   padding-top: 0%;
   margin-left: 15px;
+  width: 327px;
 }
 
 .header-connect {
