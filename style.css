@@ -1,72 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 :root {
   --primary-color: rgba(96, 112, 255, 1);
 }
 
-@media only screen and (max-width: 376px) {
-  /* Your CSS styles for mobile devices with a width of 376 pixels or less */
-  .nav {
-    display: flex;
-    justify-content: space-between;
-  }
+/* Your CSS styles for mobile devices with a width of 376 pixels or less */
+.body {
+  width: 375px;
+  padding: 20px;
+  margin: 0% !important;
+}
 
-  .nav-left {
-    font-family: Poppins, sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 20px;
-    letter-spacing: 0;
-    text-align: center;
-    color: var(--primary-color);
-  }
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
 
-  .nav-right {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+.nav-left {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: center;
+  color: var(--primary-color);
+  margin-left: 15px;
+}
 
-  .header {
-    background-image: url("/Assets/Microverse-Student-Project-1/header-shapes-mobile.png");
-    height: 701px;
-  }
+.nav-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 15px;
+}
 
-  .header-title {
-    font-family: Poppins, sans-serif;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 52px;
-    letter-spacing: 0;
-    word-spacing: 20%;
-    text-align: left;
-    color: rgba(23, 43, 77, 1);
-    padding-top: 15%;
-    margin-left: 2%;
-  }
+.header {
+  background-image: url("/Assets/Microverse-Student-Project-1/header-shapes-mobile.png");
+  width: 375px;
+  max-width: 375px;
+  height: 604px;
+  gap: 12px;
+  position: relative;
+  display: block;
+}
 
-  .header-content {
-    font-family: Poppins, sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0;
-    text-align: left;
-    color: rgba(23, 43, 77, 1);
-    padding-top: 0%;
-    margin-left: 2%;
-  }
+.header-title {
+  font-family: Poppins, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0;
+  text-align: left;
+  color: rgba(23, 43, 77, 1);
+  top: 92px;
+  width: 327px;
+  height: 235px;
+  position: relative;
+  margin-left: 15px;
+}
 
-  .header-connect {
-    font-family: Poppins, sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0;
-    text-align: left;
-    color: var(--primary-color);
-    margin-left: 2%;
-  }
+.header-content {
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: rgba(23, 43, 77, 1);
+  padding-top: 0%;
+  margin-left: 15px;
+  width: 327px;
+}
 
-  .header-social-media {
-    margin-left: 2%;
-  }
+.header-connect {
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: var(--primary-color);
+  margin-left: 15px;
+  width: 327px;
+}
+
+.header-social-media {
+  margin-left: 15px;
 }
