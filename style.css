@@ -188,13 +188,13 @@
   border-radius: 10px;
   background-color: white;
   font-weight: 500;
-  
   margin-top: 20px;
   cursor: pointer;
   border: 2px solid #6070ff;
   width: fit-content;
   font-family: "Poppins", sans-serif;
 }
+
 .introduct_section {
   width: 375px;
   max-width: 375px;
@@ -203,27 +203,27 @@
   position: relative;
   display: block;
 }
+
 .intro_title {
   height: 135px;
 }
-.intro_btn{
+
+.intro_btn {
   margin-top: 30px;
 }
+
 .myself_section {
   background: white;
   width: 100%;
   padding: 15px;
   border-radius: 50px 0 0 0;
   overflow: hidden;
- 
 }
-
 
 .group_container {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  
 }
 
 .lang_title {
