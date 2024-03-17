@@ -253,6 +253,7 @@
   color: #253858;
   font-family: "Poppins", sans-serif;
 }
+
 .contact_section {
   background-color: white;
   width: 375px;
@@ -268,8 +269,7 @@
   padding: 15px;
   border-radius: 50px 0 0 0;
   height: 750px;
- padding-right: 40px;
-
+  padding-right: 40px;
 }
 
 .form_title {
@@ -288,11 +288,11 @@
   overflow: hidden;
   padding-bottom: 40px;
   font-weight: 300;
-  font-family: "poppins",sans-serif;
+  font-family: "poppins", sans-serif;
 }
 
 .form_group input {
-  font-family: "poppins",sans-serif;
+  font-family: "poppins", sans-serif;
   padding: 10px;
   border-radius: 8px;
   border: none;
@@ -301,15 +301,16 @@
 }
 
 .form_group textarea {
-  font-family: "poppins",sans-serif;
+  font-family: "poppins", sans-serif;
   padding: 10px;
   border-radius: 8px;
   border: none;
   width: 100%;
   margin-bottom: 10px;
 }
+
 .button {
-  padding: 0px 20px;
+  padding: 0 20px;
   color: #236cea;
   border-radius: 10px;
   background-color: white;
