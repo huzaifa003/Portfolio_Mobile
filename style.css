@@ -201,7 +201,6 @@
   color: white; /* Changed to contrast against the background */
   background-color: #6070ff;
   border-radius: 4px;
-  /* Added properties to ensure the element is visible */
   width: auto; /* Adjust as needed */
   height: 18px; /* Adjust as needed, or use padding */
   display: inline-block; /* Or 'block', depending on your layout needs */
