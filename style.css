@@ -46,6 +46,20 @@
   display: block;
 }
 
+@keyframes changeColor {
+  0% {
+    color: rgba(23, 43, 77, 1);
+  }
+
+  50% {
+    color: rgba(77, 23, 43, 1);
+  }
+
+  100% {
+    color: rgba(23, 77, 43, 1);
+  }
+}
+
 .header-title {
   font-family: Poppins, sans-serif;
   font-size: 40px;
@@ -59,6 +73,7 @@
   height: 235px;
   position: relative;
   margin-left: 15px;
+  animation: changeColor 5s linear infinite alternate;
 }
 
 .header-content {
@@ -74,6 +89,16 @@
   width: 327px;
 }
 
+@keyframes underline {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 30%;
+  }
+}
+
 .header-connect {
   font-family: Poppins, sans-serif;
   font-size: 16px;
@@ -84,6 +109,19 @@
   color: var(--primary-color);
   margin-left: 15px;
   width: 327px;
+  position: relative; /* Add relative positioning */
+}
+
+.header-connect::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 10%;
+  height: 2px;
+  background-color: var(--primary-color);
+  transition: width 0.3s ease;
+  animation: underline 1.5s ease-in-out infinite alternate; /* Add continuous underline animation */
 }
 
 .header-social-media {
