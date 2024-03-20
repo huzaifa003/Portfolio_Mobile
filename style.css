@@ -37,7 +37,7 @@
 }
 
 .header {
-  background-image: url("/Assets/Microverse-Student-Project-1/header-shapes-mobile.png");
+  background-image: url("Assets/Microverse-Student-Project-1/header-shapes-mobile.png");
   width: 375px;
   max-width: 375px;
   height: 604px;
