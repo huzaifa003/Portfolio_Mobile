@@ -371,3 +371,52 @@
   color: #6070ff;
   padding: 10px;
 }
+@media screen and (min-width: 675px){
+  .nav{
+    max-width: 100%;
+  }
+  header{
+    max-width: 100% !important;
+    width: 100% !important;
+    background: url('/Assets/header_desktop.svg') no-repeat center center !important;
+    height:725px !important
+  }
+  .header-title{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    padding-bottom: 10px;
+  }
+  .header-content{
+    width: 62%;
+    padding: 0 22%;
+  }
+  br{
+    display:none
+  }
+  .header-connect{
+    position: relative;
+    left: 276px;
+  }
+  .social-media{
+    position: absolute;
+    left: 22%;
+  }
+  .navlinks{
+    display:flex;
+    gap:20px
+  }
+  .navlinks > li{
+    list-style: none;
+  }
+  .navlinks > li > a{
+    text-decoration:none;
+    color:#172b4d;
+    font-family: 'popins',sans-serif;
+    font-weight: 500;
+  }
+  .hamburger{
+    display:none
+  }
+}
