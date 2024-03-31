@@ -1,241 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Task 1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Document </title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-    <nav class="nav">
-        <div class="nav-left">
-            <p>My Logo</p>
-        </div>
-        
-        <div class="nav-right">
-          <ul id="menu" class="navlinks"> 
-            <!-- <div class='close_div'>
-              <img class='close_icon' onClick="toggleMenu()" src="assets/close.svg" alt="Close Menu" />
-            </div> -->
+  <body>
+    <div class="small_device">
+      <nav class="site_nav">
+        <h1 class="logo">My Logo</h1>
+        <img
+        onClick="toggleMenu()"
+          class="menu_hamburger"
+          src="Assets/hamburger.png"
+          alt="Hamburger Menu"
+        />
+        <ul class="site_links">
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+          <ul id="menu" class="navbar_links"> 
+            <div class='close'>
+              <img class='close_icon' onClick="toggleMenu()" src="Assets/close.svg" alt="Close Menu" />
+            </div>
             <li><a href="#">Portfolio</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
-            <img src="Assets/hamburger.png" class="hamburger"></img>
-        </div>
-    </nav>
+       
+      </nav>
 
-    <header class="header">
-
-        <div class="header-title">
-            <h3>I'm Huzaifa. Glad to see you!</h3>
-        </div>
-        <br />
-
-        <div class="header-content">
-            <p>I’m a software developer! I can help you build a product , feature or website Look through some of my
-                work and experience! If you like what you see and have a project you need coded, don’t hesitate to
-                contact me.</p>
-        </div>
-
-        <div class="header-connect">
-            <p> Let's Connect </p>
-        </div>
-
-        <div class="social-media">
+      <div class="section_1">
+        <div class="section_1_content">
+          <h1 class="section_1_introduction">I’m Huziafa. Glad to see you!</h1>
+          <p class="intro_content">
+            I’m a software developer! I can help you build a product , feature
+            or website Look through some of my work and experience! If you like
+            what you see and have a project you need coded, don’t hesitate to
+            contact me.
+          </p>
+          <p class="connects">LETS CONNECT</p>
+          <div class="social">
             <img src="Assets/twitter.svg" />
             <img src="Assets/Linkedin.svg" />
             <img src="Assets/mpic.svg" />
             <img src="Assets/github.svg" />
             <img src="Assets/vict.svg" />
+          </div>
         </div>
+      </div>
 
 
-    </header>
-    <section class="project_section">
-      <div class="project_card">
-        <div>
-          <img src="Assets/Snapshoot Portfolio.png" alt="Portfolio Image" />
-          <h1 class="project_title">Tonic</h1>
-          <div class="project_seo_tags">
-            <h6>CANOPY</h6>
-            <div class="project_seo_lists">
-              <p class="list_item"> <span class="bullet"></span> Backend</p>
-              <p class="list_item"> <span class="bullet"></span> 2015</p>
-            </div>
-          </div>
-          <p class="project_description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-          <div class="project_skills">
-            <p class="skill">html</p>
-            <p class="skill">css</p>
-            <p class="skill">javaScript</p>
-          </div>
-        </div>
-        <div class="project_button">
-          <p>See Project</p>
-        </div>
-      </div>
-      <div class="project_card">
-        <div>
-          <img src="Assets/portfolio2.png" alt="Portfolio Image" />
-          <h1 class="project_title">Multi-Post
-            Stories</h1>
-          <div class="project_seo_tags">
-            <h6>CANOPY</h6>
-            <div class="project_seo_lists">
-              <p class="list_item"> <span class="bullet"></span> Backend</p>
-              <p class="list_item"> <span class="bullet"></span> 2015</p>
-            </div>
-          </div>
-          <p class="project_description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-          <div class="project_skills">
-            <p class="skill">html</p>
-            <p class="skill">css</p>
-            <p class="skill">javaScript</p>
-          </div>
-        </div>
-        <div class="project_button">
-          <p>See Project</p>
-        </div>
-      </div>
-      <div class="project_card">
-        <div>
-          <img src="Assets/portfolio3.png" alt="Portfolio Image" />
-          <h1 class="project_title">Tonic</h1>
-          <div class="project_seo_tags">
-            <h6>CANOPY</h6>
-            <div class="project_seo_lists">
-              <p class="list_item"> <span class="bullet"></span> Backend</p>
-              <p class="list_item"> <span class="bullet"></span> 2015</p>
-            </div>
-          </div>
-          <p class="project_description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-          <div class="project_skills">
-            <p class="skill">html</p>
-            <p class="skill">css</p>
-            <p class="skill">javaScript</p>
-          </div>
-        </div>
-        <div class="project_button">
-          <p>See Project</p>
-        </div>
-      </div>
-      <div class="project_card">
-        <div>
-          <img src="Assets/portfolio4.png" alt="Portfolio Image" />
-          <h1 class="project_title">Multi-Post
-            Stories</h1>
-          <div class="project_seo_tags">
-            <h6>CANOPY</h6>
-            <div class="project_seo_lists">
-              <p class="list_item"> <span class="bullet"></span> Backend</p>
-              <p class="list_item"> <span class="bullet"></span> 2015</p>
-            </div>
-          </div>
-          <p class="project_description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-          <div class="project_skills">
-            <p class="skill">html</p>
-            <p class="skill">css</p>
-            <p class="skill">javaScript</p>
-          </div>
-        </div>
-        <div class="project_button">
-          <p>See Project</p>
-        </div>
-      </div>
-    </section>
-    
-    <section class="introduct_section">
-
-      <div class="header-title intro_title">
-          <h3>About Myself</h3>
-      </div>
-      <br />
-
-      <div class="header-content">
-          <p>Hello I’m a software developer! I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
-      </div>
-
-      <div class="header-connect">
-          <p> Let's Connect </p>
-      </div>
-
-      <div class="social-media">
-          <img src="Assets/twitter.svg" />
-          <img src="Assets/Linkedin.svg" />
-          <img src="Assets/mpic.svg" />
-          <img src="Assets/github.svg" />
-          <img src="Assets/vict.svg" />
-      </div>
-      <div class="project_button intro_btn">
-        <p>Get my Resume</p>
-      </div>
-      <div class="languages_section">
-        <h1 class="lang_title">Languages</h1>
-        <div class="lang_container">
-          <div class='lang'>
-            <img src="Assets/js_logo.svg"/>
-            <p>JavaScript</p>
-          </div>
-          <div class='lang'>
-            <img src="Assets/html_logo.svg"/>
-            <p>HTML</p>
-          </div>
-          <div class='lang'>
-            <img src="Assets/css_logo.svg"/>
-            <p>CSS</p>
-          </div>
-        </div>
-      </div>
-      
-    </section>
-
-    <section class="contact_section">
-      <div class="contact-form">
-        <h1 class="form_title">Contact Me</h1>
-        <p class="form_description">
-          If you have an application you are interested in developing, a
-          feature that you need built or a project that needs coding. I’d love
-          to help with it!
-        </p>
-        <form  
-        action="https://formspree.io/f/mrgnapad"
-        method="POST"
-        >
-          <div class="form_group">
-            <input
-              type="text"
-              id="name"
-              value="Lorem Ipsum"
-              name="name"
-              placeholder="Enter your name"
-            />
-          </div>
-          <div class="form_group">
-            <input
-              type="email"
-              id="email"
-              value="loremipsum@gmail.com"
-              name="email"
-              placeholder="Enter your email"
-            />
-          </div>
-          <div class="form_group">
-            <textarea
-              rows="8"
-              id="message"
-              name="message"
-              placeholder="Write your message"
-            ></textarea>
-          </div>
+      <div class="portfolio_container">
+        <div class="portfolio_container_cards">
+          <div>
+            <img src="Assets/Snapshoot Portfolio.png" alt="Portfolio Image" />
+            <div class='content_container'>
+              <h1 class="portfolio_heading">Tonic</h1>
+              <div class="portfolio_tags">
+                <h6>CANOPY</h6>
+                <div class="portfolio_lists">
+                  <p class="list_item"> <span class="bullet"></span> Backend</p>
+                  <p class="list_item"> <span class="bullet"></span> 2015</p>
+                </div>
+              </div>
+              <p class="portfolio_description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+              <div class="portfolio_skills">
+                <p class="skill">html</p>
+                <p class="skill">css</p>
+                <p class="skill">javaScript</p>
+              </div>
+         
           <div class="button">
-            <input  type="submit" value="Get in Touch"/>
+            <p>See Project</p>
           </div>
-        </form>
+        </div>
+        </div>
+        </div>
+        <div class="portfolio_container_cards">
+          <div>
+            <img src="Assets/portfolio2.png" alt="Portfolio Image" />
+            <div class='content_container'>
+              <h1 class="portfolio_heading">Multi-Post Stories</h1>
+              <div class="portfolio_tags">
+                <h6>CANOPY</h6>
+                <div class="portfolio_lists">
+                  <p class="list_item"> <span class="bullet"></span> Backend</p>
+                  <p class="list_item"> <span class="bullet"></span> 2015</p>
+                </div>
+              </div>
+              <p class="portfolio_description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+              <div class="portfolio_skills">
+                <p class="skill">html</p>
+                <p class="skill">css</p>
+                <p class="skill">javaScript</p>
+              </div>
+         
+          <div class="button">
+            <p>See Project</p>
+          </div>
+        </div>
+        </div>
+        </div>
+        <div class="portfolio_container_cards">
+          <div>
+            <img src="Assets/portfolio3.png" alt="Portfolio Image" />
+            <div class='content_container'>
+              <h1 class="portfolio_heading">Tonic</h1>
+              <div class="portfolio_tags">
+                <h6>CANOPY</h6>
+                <div class="portfolio_lists">
+                  <p class="list_item"> <span class="bullet"></span> Backend</p>
+                  <p class="list_item"> <span class="bullet"></span> 2015</p>
+                </div>
+              </div>
+              <p class="portfolio_description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+              <div class="portfolio_skills">
+                <p class="skill">html</p>
+                <p class="skill">css</p>
+                <p class="skill">javaScript</p>
+              </div>
+         
+          <div class="button">
+            <p>See Project</p>
+          </div>
+        </div>
+        </div>
+        </div>
+        <div class="portfolio_container_cards">
+          <div>
+            <img src="Assets/portfolio4.png" alt="Portfolio Image" />
+            <div class='content_container'>
+              <h1 class="portfolio_heading">Multi-Post Stories</h1>
+              <div class="portfolio_tags">
+                <h6>CANOPY</h6>
+                <div class="portfolio_lists">
+                  <p class="list_item"> <span class="bullet"></span> Backend</p>
+                  <p class="list_item"> <span class="bullet"></span> 2015</p>
+                </div>
+              </div>
+              <p class="portfolio_description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+              <div class="portfolio_skills">
+                <p class="skill">html</p>
+                <p class="skill">css</p>
+                <p class="skill">javaScript</p>
+              </div>
+         
+          <div class="button">
+            <p>See Project</p>
+          </div>
+        </div>
+        </div>
+        </div>
       </div>
-    </section>
-</body>
 
+
+      <div class="self_container">
+        <div class="section_1_content self_container_content">
+          <div class="self_div_container">
+
+            <h1 class="section_1_introduction">About Myself</h1>
+            <p class="intro_content myintro">
+              Hello I’m a software developer! I can help you build a product ,
+              feature or website Look through some of my work and experience! If
+              you like what you see and have a project you need coded, don’t
+              hestiate to contact me.
+            </p>
+            <div class="combined_div">
+              <p class="connects">LETS CONNECT</p>
+              <div class="social">
+                <img src="Assets/twitter.svg" />
+                <img src="Assets/linkedin.svg" />
+                <img src="Assets/mpic.svg" />
+                <img src="Assets/github.svg" />
+                <img src="Assets/vict.svg" />
+              </div>
+              <div class="button">
+                <p>Get my Resume</p>
+              </div>
+            </div>
+          </div>
+          <div class="languages_container">
+            <h1 class="language_title">Languages</h1>
+            <div class="lang_container">
+              <div class="lang">
+                <img src="Assets/js_logo.svg" />
+                <p>JavaScript</p>
+              </div>
+              <div class="lang">
+                <img src="Assets/html_logo.svg" />
+                <p>HTML</p>
+              </div>
+              <div class="lang">
+                <img src="Assets/css_logo.svg" />
+                <p>CSS</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-info-section">
+        <div class="contact-form-container">
+          <h1 class="form_title">Contact Me</h1>
+          <p class="form_description">
+            If you have an application you are interested in developing, a
+            feature that you need built or a project that needs coding. I’d love
+            to help with it!
+          </p>
+          <form 
+          action="https://formspree.io/f/mrgnapad"
+          method="POST"
+          >
+            <div class="form_group">
+              <input
+                type="text"
+                id="name"
+                value="Lorem Ipsum"
+                name="name"
+                placeholder="Enter your name"
+              />
+            </div>
+            <div class="form_group">
+              <input
+                type="email"
+                id="email"
+                value="loremipsum@gmail.com"
+                name="email"
+                placeholder="Enter your email"
+              />
+            </div>
+            <div class="form_group">
+              <textarea
+                rows="8"
+                id="message"
+                name="message"
+                placeholder="Write your message"
+              ></textarea>
+            </div>
+            <div class="button whitebtn">
+              <input  type="submit" value="Get in Touch"/>
+            </div>
+          </form>
+        </div>
+      </div>
+
+
+      <footer>
+        <div class="end_bar"></div>
+      </footer>
+    </div>
+
+
+   <script src="script.js"> </script>
+  </body>
 </html>
