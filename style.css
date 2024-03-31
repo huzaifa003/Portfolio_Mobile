@@ -228,7 +228,6 @@ h6 {
   color: #6070ff;
 }
 
-
 .button {
   padding: 10px 20px;
   color: #236cea;
@@ -332,8 +331,6 @@ h6 {
   transition: transform 0.5s ease; /* Apply transition */
 }
 
-
-
 .form_description {
   font-size: 20px;
   line-height: 24px;
@@ -342,11 +339,9 @@ h6 {
   padding-bottom: 40px;
   font-weight: 300;
   transform: scale(0.8);
-  transition: transform 0.5s ease; 
+  transition: transform 0.5s ease;
   margin: auto;
 }
-
-
 
 .form_group input {
   padding: 10px;
